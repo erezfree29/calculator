@@ -1,0 +1,23 @@
+ table {
+   border: 2px double blue;
+ }
+ 
+ td {
+  border: 1px solid blue;
+}
+
+.equal,
+.divide,
+.multiply,
+.minus {
+ width: 96%;
+ margin-left: 1.98%;
+}
+
+.display {
+  height: 25px;
+}
+
+.screen {
+  
+}
