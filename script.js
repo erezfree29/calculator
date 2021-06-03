@@ -17,6 +17,11 @@ function dis(val) {
   
 }
 
+function restart() {
+  display.innerHTML = '0';
+  equation = [];
+} 
+
 function solve () {
   equation.push(display.innerHTML)
   console.log(equation)
