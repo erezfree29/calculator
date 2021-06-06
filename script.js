@@ -9,7 +9,8 @@ function dis(val) {
     display.innerHTML += val
   } else if  (val == '+' || val == '-'   || val == '*'   || val == '/'){
     equation.push(display.innerHTML)
-    equation.push(val)  
+    equation.push(val) 
+    console.log(equation); 
     display.innerHTML = val
   } else if (display.innerHTML == '+' || display.innerHTML == '+'  || display.innerHTML == '*'  || display.innerHTML == '/' ){
     display.innerHTML = val;
@@ -40,5 +41,19 @@ function solve () {
 
   }
   display.innerHTML = result;
+  equation = []
 }
 
+let users = {
+  Alan: {
+    online: false
+  },
+  Jeff: {
+    online: true
+  },
+  Sarah: {
+    online: false
+  }
+}
+
+console.log(users.Alan.online);
